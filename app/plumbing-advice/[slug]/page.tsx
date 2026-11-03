@@ -62,7 +62,7 @@ export default function SingleBlogPage({ params }: BlogPostProps) {
     dateModified: post.lastUpdated,
     author: {
       '@type': 'Person',
-      name: author?.name || 'JNF Plumbing Cairns',
+      name: author?.name || 'Jungle Perch Plumbing Services',
     },
     publisher: {
       '@type': 'Organization',

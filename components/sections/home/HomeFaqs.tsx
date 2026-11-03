@@ -12,14 +12,14 @@ const HOME_FAQS: AccordionItem[] = [
     relatedLink: { href: '/services/', label: 'Explore our services →' },
   },
   {
-    question: 'What areas does JNF Plumbing Cairns service?',
-    answer: 'The team serves Cairns and surrounding areas from Cairns. Call to discuss your property and availability.',
+    question: 'What areas do you service?',
+    answer: 'Call to confirm availability for your property and area.',
     relatedLink: { href: '/contact/', label: 'Contact our team →' },
   },
   {
     question: 'How do I arrange a plumbing repair?',
-    answer: 'Call +61 417 890 910 to discuss leaks, hot water, drainage or other plumbing work.',
-    relatedLink: { href: '/emergency-plumbing/', label: 'Explore our services →' },
+    answer: 'Call +61 459 513 503 to discuss your plumbing work and availability.',
+    relatedLink: { href: '/plumbing-services/', label: 'Explore our services →' },
   },
   {
     question: 'How do I request a quote?',

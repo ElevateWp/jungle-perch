@@ -18,7 +18,7 @@ const REASONS = [
   },
   {
     title: 'Plumbing for your property',
-    description: 'JNF Plumbing Cairns offers professional plumbing services. Call to discuss your project and the work required.',
+    description: 'Jungle Perch Plumbing Services offers professional plumbing services. Call to discuss your project and the work required.',
   },
 ];
 
@@ -72,7 +72,7 @@ export default function HomeWhyUs() {
                       className="object-cover"
                     />
                   </MediaParallax>
-                  <div className="absolute bottom-3 left-3 bg-[#062B70]/90 backdrop-blur-sm text-[#101828] font-body text-12 px-3 py-1 font-medium">
+                  <div className="absolute bottom-3 left-3 bg-[#064B32]/90 backdrop-blur-sm text-[#1C2119] font-body text-12 px-3 py-1 font-medium">
                     Plumbing
                   </div>
                 </div>
@@ -87,7 +87,7 @@ export default function HomeWhyUs() {
                   />
                 </div>
                 {/* Plumbing project detail */}
-                <div className="col-span-2 sm:col-span-1 relative aspect-square bg-[#F3F6FA] overflow-hidden border border-mist shadow-sm">
+                <div className="col-span-2 sm:col-span-1 relative aspect-square bg-[#F5F1E6] overflow-hidden border border-mist shadow-sm">
                   <Image
                     src="/images/plumbing-pipes.jpg"
                     alt="Plumbing"
@@ -95,7 +95,7 @@ export default function HomeWhyUs() {
                     sizes="(max-width: 640px) 100vw, 25vw"
                     className="object-cover object-top"
                   />
-                  <div className="absolute bottom-0 left-0 right-0 bg-[#062B70]/80 text-[#101828] font-body text-12 px-3 py-2 text-center">
+                  <div className="absolute bottom-0 left-0 right-0 bg-[#064B32]/80 text-[#1C2119] font-body text-12 px-3 py-2 text-center">
                      Plumbing
                   </div>
                 </div>

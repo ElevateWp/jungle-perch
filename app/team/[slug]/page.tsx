@@ -67,7 +67,7 @@ export default function SinglePlumberPage({ params }: PlumberProfileProps) {
         <div className="max-w-site mx-auto px-6 md:px-12">
           <Breadcrumbs
             items={[
-              { name: 'JNF Plumbing Cairns team', path: '/team/' },
+              { name: 'Jungle Perch Plumbing Services team', path: '/team/' },
               { name: plumber.name, path: `/team/${plumber.slug}/` },
             ]}
           />
@@ -88,7 +88,7 @@ export default function SinglePlumberPage({ params }: PlumberProfileProps) {
                 </div>
                 {plumber.experienceYears > 0 && <div className="mt-4 p-4 bg-mist/40 border border-mist flex justify-between text-13 font-body text-forest-ink/80">
                   <span>Team experience:</span>
-                  <span className="font-medium text-forest">{plumber.experienceYears}+ years of experience</span>
+                  {plumber.experienceYears > 0 && <span className="font-medium text-forest">{plumber.experienceYears}+ years of experience</span>}
                 </div>}
               </AnimateOnScroll>
             </div>
@@ -152,7 +152,7 @@ export default function SinglePlumberPage({ params }: PlumberProfileProps) {
             {plumber.memberships.length > 0 && <div className="lg:col-span-6">
               <AnimateOnScroll animation="fade-up" duration={0.8} delay={0.15}>
                 <h2 className="font-display text-26 md:text-33 text-forest-ink mb-6">
-                  About JNF Plumbing Cairns
+                  About Jungle Perch Plumbing Services
                 </h2>
                 <ul className="space-y-4 font-body text-15 text-forest-ink/80">
                   {plumber.memberships.map((mem, idx) => (

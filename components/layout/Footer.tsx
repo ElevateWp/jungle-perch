@@ -11,10 +11,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 pb-16 border-b border-mist/20">
           <div className="lg:col-span-6">
             <div className="flex items-center gap-4 mb-5">
-              <div className="w-40 h-14 sm:w-48 sm:h-[70px] bg-[#062B70] rounded-xl p-2 flex items-center justify-center flex-shrink-0 shadow-md">
+              <div className="w-40 h-14 sm:w-48 sm:h-[70px] bg-[#064B32] rounded-xl p-2 flex items-center justify-center flex-shrink-0 shadow-md">
                 <Image
                   src="/images/jnf-plumbing-logo.png"
-                  alt="JNF Plumbing Cairns logo"
+                  alt="Jungle Perch Plumbing Services logo"
                   width={220}
                   height={80}
                   className="object-contain w-full h-full"
@@ -22,7 +22,7 @@ export default function Footer() {
               </div>
               <div className="flex flex-col">
                 <span className="font-display text-24 md:text-30 font-medium leading-tight">
-                  JNF Plumbing Cairns
+                  Jungle Perch Plumbing Services
                 </span>
                 <span className="font-body text-13 text-paper/70 font-medium">
                   Plumbing services
@@ -30,10 +30,10 @@ export default function Footer() {
               </div>
             </div>
             <p className="font-body text-16 text-paper/80 leading-relaxed max-w-xl">
-              Emergency plumbing, hot water and drainage for your property. Call to discuss your project.
+              Quality plumbing work with clear communication. Call to discuss your project.
             </p>
             <div className="mt-6 flex flex-wrap gap-4 text-13 text-paper/60">
-              <a href={`tel:${CLINIC_INFO.contact.phone.replace(/[^0-9+]/g, '')}`} className="hover:text-paper">{CLINIC_INFO.contact.phone}</a>{CLINIC_INFO.contact.website && <a href={CLINIC_INFO.contact.website} target="_blank" rel="noopener noreferrer" className="hover:text-paper">JNF Plumbing Cairns</a>}
+              <a href={`tel:${CLINIC_INFO.contact.phone.replace(/[^0-9+]/g, '')}`} className="hover:text-paper">{CLINIC_INFO.contact.phone}</a>{CLINIC_INFO.contact.website && <a href={CLINIC_INFO.contact.website} target="_blank" rel="noopener noreferrer" className="hover:text-paper">Jungle Perch Plumbing Services</a>}
               {CLINIC_INFO.contact.email && <a href={`mailto:${CLINIC_INFO.contact.email}`} className="hover:text-paper">{CLINIC_INFO.contact.email}</a>}
             </div>
           </div>
@@ -41,10 +41,10 @@ export default function Footer() {
           <div className="lg:col-span-6 lg:pl-12 flex flex-col justify-between">
             <div className="p-6 bg-paper/5 border border-mist/20 rounded-none shadow-sm">
               <span className="font-body text-13 text-lime block mb-2 font-semibold uppercase tracking-wider">
-                Emergency plumbing, hot water and drainage
+                Plumbing services
               </span>
               <p className="font-body text-15 text-paper/90 mb-4">
-                Need plumbing help? Call our Cairns and surrounding areas team to discuss the work required.
+                Need plumbing help? Call Jungle Perch Plumbing Services to discuss the work required.
               </p>
               <div className="flex flex-wrap items-center gap-4">
                 <a
@@ -90,12 +90,12 @@ export default function Footer() {
           {/* Column 2: technical Team */}
           <div className="col-span-1">
             <span className="font-body text-13 text-paper/40 uppercase tracking-wider block mb-4 font-semibold">
-              JNF Plumbing Cairns
+              Jungle Perch Plumbing Services
             </span>
             <ul className="space-y-2.5 font-body text-15">
               <li>
                 <Link href="/about/" className="text-paper/80 hover:text-lime transition-colors">
-                  JNF Plumbing Cairns
+                  Jungle Perch Plumbing Services
                 </Link>
               </li>
               {DENTISTS.map((d) => (
@@ -124,7 +124,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/services/" className="text-paper/80 hover:text-lime transition-colors">
-                  Emergency plumbing, hot water and drainage
+                  Plumbing services
                 </Link>
               </li>
               <li>
@@ -167,12 +167,6 @@ export default function Footer() {
                   {CLINIC_INFO.contact.phone}
                 </a>
               </div>
-              <div>
-                <span className="text-paper/50 block text-13">Address:</span>
-                <address className="not-italic leading-relaxed text-13 text-paper/70">
-                  11 Windjammer Cres, Cairns QLD 4870, Australia
-                </address>
-              </div>
             </div>
           </div>
         </div>
@@ -183,7 +177,7 @@ export default function Footer() {
             © {new Date().getFullYear()} {CLINIC_INFO.legalName}. All rights reserved.
           </div>
           <div className="flex items-center gap-6">
-            <a href="/" className="hover:text-paper">JNF Plumbing Cairns</a>
+            <a href="/" className="hover:text-paper">Jungle Perch Plumbing Services</a>
           </div>
         </div>
       </div>

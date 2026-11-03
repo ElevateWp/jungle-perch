@@ -17,9 +17,9 @@ import { SERVICES } from '@/lib/clinic-data';
 import { createMetadata } from '@/lib/seo';
 
 export const metadata: Metadata = createMetadata({
-  title: 'JNF Plumbing Cairns',
+  title: 'Jungle Perch Plumbing Services',
   description:
-    'Emergency plumbing, leak repairs, hot water systems, blocked drains and plumbing inspections in Cairns. Call +61 417 890 910.',
+    'Jungle Perch Plumbing Services offers quality plumbing workmanship and clear communication. Call +61 459 513 503.',
   pathname: '/',
 });
 
@@ -55,7 +55,7 @@ export default function HomePage() {
         <TextureBackground variant="divider" className="opacity-30" />
       </div>
 
-      {/* SECTION 4: Why choose JNF Plumbing Cairns */}
+      {/* SECTION 4: Why choose Jungle Perch Plumbing Services */}
       <HomeWhyUs />
 
       {/* SECTION 5: About the business */}

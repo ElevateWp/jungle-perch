@@ -19,7 +19,7 @@ export default function HomeBeforeAfter() {
               Plumbing images are illustrative. Contact us to discuss your plumbing project.
             </p>
             <Link
-              href="/emergency-plumbing/"
+              href="/plumbing-services/"
               className="font-body text-15 text-forest font-medium hover:underline underline-offset-4"
             >
               Explore our services →
@@ -36,7 +36,7 @@ export default function HomeBeforeAfter() {
                   sizes="(max-width: 640px) 100vw, 50vw"
                   className="object-cover"
                 />
-                <span className="absolute bottom-3 left-3 bg-[#062B70]/90 text-[#101828] font-body text-12 px-3 py-1">
+                <span className="absolute bottom-3 left-3 bg-[#064B32]/90 text-[#1C2119] font-body text-12 px-3 py-1">
                   Illustrative image
                 </span>
               </div>
@@ -48,7 +48,7 @@ export default function HomeBeforeAfter() {
                   sizes="(max-width: 640px) 100vw, 50vw"
                   className="object-cover"
                 />
-                <span className="absolute bottom-3 left-3 bg-[#062B70]/90 text-[#101828] font-body text-12 px-3 py-1">
+                <span className="absolute bottom-3 left-3 bg-[#064B32]/90 text-[#1C2119] font-body text-12 px-3 py-1">
                   Illustrative image
                 </span>
               </div>

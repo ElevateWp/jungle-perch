@@ -11,7 +11,7 @@ import { createMetadata } from '@/lib/seo';
 export const metadata: Metadata = createMetadata({
   title: 'Plumbing advice',
   description:
-    'Plumbing advice information from JNF Plumbing Cairns.',
+    'Plumbing advice information from Jungle Perch Plumbing Services.',
   pathname: '/plumbing-advice/',
 });
 
@@ -45,6 +45,11 @@ export default function BlogIndexPage() {
       <section className="py-20 md:py-32 border-b border-mist">
         <div className="max-w-site mx-auto px-6 md:px-12">
           <div className="divide-y divide-mist border-t border-b border-mist">
+            {BLOG_POSTS.length === 0 && (
+              <p className="py-8 font-body text-15 leading-relaxed text-forest-ink/80">
+                For advice about your plumbing project, call Jungle Perch Plumbing Services on +61 459 513 503.
+              </p>
+            )}
             {BLOG_POSTS.map((post, idx) => {
               const author = DENTISTS.find((d) => d.id === post.authorId) || DENTISTS[0];
               return (

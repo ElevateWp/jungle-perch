@@ -148,9 +148,9 @@ export default function PagePreloader() {
   return (
     <div
       ref={containerRef}
-      className="fixed inset-0 z-[99999] flex items-center justify-center bg-[#062B70] text-white overflow-hidden select-none"
+      className="fixed inset-0 z-[99999] flex items-center justify-center bg-[#064B32] text-white overflow-hidden select-none"
       style={{ willChange: 'clip-path, opacity' }}
-      aria-label="Loading JNF Plumbing Cairns"
+      aria-label="Loading Jungle Perch Plumbing Services"
     >
       {/* One charcoal cover retracts along a stepped diagonal, keeping the reveal continuous. */}
 
@@ -161,11 +161,11 @@ export default function PagePreloader() {
         {/* Animated 3D Logo */}
         <div
           ref={logoRef}
-          className="relative w-40 h-20 sm:w-48 sm:h-24 bg-[#062B70] rounded-2xl shadow-2xl p-2.5 flex items-center justify-center mb-6 border border-[#062B70]/40"
+          className="relative w-40 h-20 sm:w-48 sm:h-24 bg-[#064B32] rounded-2xl shadow-2xl p-2.5 flex items-center justify-center mb-6 border border-[#064B32]/40"
         >
           <Image
             src="/images/jnf-plumbing-logo.png"
-            alt="JNF Plumbing Cairns"
+            alt="Jungle Perch Plumbing Services"
             width={220}
             height={118}
             priority
@@ -176,9 +176,9 @@ export default function PagePreloader() {
         {/* Primary Requested Uppercase Welcome Text */}
         <h1
           ref={titleRef}
-          className="font-display text-22 sm:text-30 md:text-36 font-medium text-[#101828] uppercase tracking-[0.08em] leading-tight mb-3 text-shadow-sm"
+          className="font-display text-22 sm:text-30 md:text-36 font-medium text-[#FFF1C7] uppercase tracking-[0.08em] leading-tight mb-3 text-shadow-sm"
         >
-          JNF Plumbing Cairns
+          Jungle Perch Plumbing Services
         </h1>
 
         {/* Delicate Golden-Lime Divider Line */}
@@ -190,7 +190,7 @@ export default function PagePreloader() {
         {/* Subtitle / business name */}
         <p
           ref={subtitleRef}
-          className="font-body text-12 sm:text-13 text-[#101828]/85 uppercase tracking-[0.15em]"
+          className="font-body text-12 sm:text-13 text-[#FFF1C7]/85 uppercase tracking-[0.15em]"
         >
            professional plumbing services 
         </p>

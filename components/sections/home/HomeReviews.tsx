@@ -11,7 +11,7 @@ export default function HomeReviews() {
         <AnimateOnScroll animation="fade-up" duration={0.8} className="mb-12 text-center">
           <span className="font-body text-13 text-forest-light block mb-2 font-medium uppercase tracking-wider">Customer reviews</span>
           <h2 className="font-display text-33 md:text-41 text-forest-ink">What customers say</h2>
-          <p className="mx-auto mt-3 font-body text-15 text-forest-ink/75">85 Google reviews for JNF Plumbing Cairns.</p>
+          <p className="mx-auto mt-3 font-body text-15 text-forest-ink/75">5.0 out of 5, based on 1 Google review.</p>
         </AnimateOnScroll>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
           {CUSTOMER_REVIEWS.slice(0, 3).map((review, index) => (
